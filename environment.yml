@@ -1,0 +1,38 @@
+name: ddsp
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - tensorflow-macos
+    - tensorflow-metal
+    - cloudml-hypertune
+    - note_seq
+    - crepe
+    - -e .
+    - jupyter_http_over_ws
+  - bokeh==2.4.3
+  - apache-beam
+  - future
+  - gin-config
+  - google-cloud-storage
+  - grpcio
+  - imageio
+  - jupyter
+  - librosa
+  - packaging==20.9
+  - pydub
+  - mir_eval
+  - nomkl
+  - numba
+  - numpy
+  - scipy
+  - six
+  - tensorboard
+  - tensorflow
+  - tensorflow-deps
+  - tensorflow-estimator
+  - tensorflow-probability
+  - tensorflow-datasets
